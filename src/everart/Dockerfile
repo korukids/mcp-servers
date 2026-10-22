@@ -1,4 +1,4 @@
-FROM node:22.12-alpine AS builder
+FROM node:22.23-alpine AS builder
 
 COPY src/everart /app
 COPY tsconfig.json /tsconfig.json
