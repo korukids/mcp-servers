@@ -1,4 +1,4 @@
-FROM node:22.12-alpine as builder
+FROM node:22.23-alpine as builder
 
 COPY src/redis /app
 
